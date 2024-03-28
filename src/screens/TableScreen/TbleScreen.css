@@ -17,6 +17,9 @@
     overflow: hidden;
     transition: 300ms ease all;
 }
+.hoveranimation{
+    transition: 500ms ease-in all;
+}
 
 .appbarContainer:hover{
     width: 240px;
@@ -44,6 +47,9 @@
     flex-direction:row;
 }
 
+.sliderContainer{
+    width: 100px;
+}
 
 .contentContainer{
     display: flex;
@@ -70,6 +76,25 @@
 .filterContainer{
     width:100%;
     height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.limitRContainer{
+    min-width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.limitRContainer p{
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 10px;
+    
 }
 .loaderContaienr{
     display: flex;
